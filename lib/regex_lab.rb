@@ -9,15 +9,15 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 #using scan method
-#using word boundaries for beginning and end to only get 5 letter words 
+#using word boundaries for beginning and end to contain 5 letters
 #using a-z for only letters 
-#using 
+#using {5} for exactly 5 letters
 def words_five_letters_long(text)
   text.scan(/\b[a-z]{5}\b/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  text.match()
 end
 
 def valid_phone_number?(phone)
