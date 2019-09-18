@@ -8,6 +8,10 @@ def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/un\w+ing/i)
 end
 
+#using scan method
+#using word boundaries for beginning and end to only get 5 letter words 
+#using a-z for only letters 
+#using 
 def words_five_letters_long(text)
   text.scan(/\b[a-z]{5}\b/)
 end
